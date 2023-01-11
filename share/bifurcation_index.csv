@@ -8,7 +8,7 @@
 #                    of their starting latitude in a particular year
 #
 # Michael Malick <mjm@michaelmalick.com>
-# Updated: 2020-10-22 14:19:17
+# Updated: 2023-01-11 13:38:05
 year,bifurcation_index
 1967,0.665116279069767
 1968,0.288372093023256
@@ -64,3 +64,5 @@ year,bifurcation_index
 2018,0.762790697674419
 2019,0.846511627906977
 2020,0.744186046511628
+2021,0.697674418604651
+2022,0.516279069767442

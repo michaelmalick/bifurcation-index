@@ -175,12 +175,12 @@ dev.off()
 
 
 ## Drifters plotted by year (individual)
-plot_drifters(data = oscurs_index, years = 1967:2020, type = "indv",
+plot_drifters(data = oscurs_index, years = 1967:2022, type = "indv",
               file = "./figures/drifters.pdf")
 
 
 ## Plot drifter grid colored by end position
-plot_grid_end(data = oscurs_index, years = 1967:2020,
+plot_grid_end(data = oscurs_index, years = 1967:2022,
               type = "all", file = "./figures/grid_end.pdf")
 
 

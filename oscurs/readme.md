@@ -8,7 +8,8 @@ for a single latitude. Therefore, the script needs to be run 25 times with
 different input latitude (and longitude) values.
 
 The download script will download all simulated data and the number of runs for
-the particular set should be updated prior to running.
+the particular set should be updated prior to running. Need to run the download
+script after each latitude run.
 
 
     n  lat lon min lon max n lon
