@@ -119,9 +119,9 @@ plot_grid_end <- function(data, years, type, file = NULL) {
             border = "grey70",
             lwd = 0.5)
         points(grid2.n$lon, grid2.n$lat, pch = 16, cex = 0.8,
-               col = chroma::qpal(1))
+               col = "steelblue")
         points(grid2.s$lon, grid2.s$lat, pch = 16, cex = 0.8,
-            col = chroma::qpal(1, hue.start = 0))
+            col = "tomato")
         text(x = -123, y = 59, labels = paste(j))
         box(col = "grey70")
     }
@@ -159,7 +159,7 @@ plot_drifters <- function(data, years, type, file = NULL) {
     for(j in years) {
         dat.sub <- data[data$year == j, ]
         dat.sub$run.col <- ifelse(dat.sub$end == "south",
-            chroma::qpal(1, hue.start = 0), chroma::qpal(1))
+            "tomato", "steelblue")
         n.runs  <- length(unique(dat.sub$run))
         runs    <- unique(dat.sub$run)
 

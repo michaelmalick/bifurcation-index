@@ -9,7 +9,6 @@ suppressPackageStartupMessages(library(rworldmap))
 library(ncdf4)
 library(plyr)
 library(raster)
-library(chroma)     ## https://github.com/michaelmalick/r-chroma
 library(ggsimple)   ## https://github.com/michaelmalick/ggsimple
 data(countriesLow)
 
