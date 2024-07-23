@@ -1,6 +1,8 @@
 ## PROCESS OSCURS MODEL DATA + CALC BI
 ## Michael Malick
 
+yrs = 1967:2024
+
 
 if(!file.exists("./data/oscurs"))
     utils::unzip("./data/oscurs.zip", exdir = "./data/oscurs")
@@ -175,12 +177,12 @@ dev.off()
 
 
 ## Drifters plotted by year (individual)
-plot_drifters(data = oscurs_index, years = 1967:2022, type = "indv",
+plot_drifters(data = oscurs_index, years = yrs, type = "indv",
               file = "./figures/drifters.pdf")
 
 
 ## Plot drifter grid colored by end position
-plot_grid_end(data = oscurs_index, years = 1967:2022,
+plot_grid_end(data = oscurs_index, years = yrs,
               type = "all", file = "./figures/grid_end.pdf")
 
 
@@ -198,7 +200,7 @@ header <-"# Bifurcation Index
 # bifurcation index: percentage of the 215 simulated drifters that ended south
 #                    of their starting latitude in a particular year
 #
-# Michael Malick <mjm@michaelmalick.com>
+# Michael Malick <malickmj@gmail.com>
 "
 header <- paste0(header, "# Updated: ", Sys.time())
 

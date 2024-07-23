@@ -2,10 +2,10 @@ There is one script to run the OSCURS model (`oscurs-run.scpt`) and another to
 download the data (`oscurs-download.scpt`) from the model runs.
 
 The "run" script simulates drifters using the online web app. Because the
-start points for the drifters are not a complete square (fewer start parts at
-a given latitude as you go north), the script should be run at all longitudes
-for a single latitude. Therefore, the script needs to be run 25 times with
-different input latitude (and longitude) values.
+start points for the drifters are not a complete square (fewer start points at a
+given latitude as you go north), the script should be run at all longitudes for
+a single latitude. Therefore, the script needs to be run 25 times with different
+input latitude (and longitude) values.
 
 The download script will download all simulated data and the number of runs for
 the particular set should be updated prior to running. Need to run the download

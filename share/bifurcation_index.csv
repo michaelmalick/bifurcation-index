@@ -7,8 +7,8 @@
 # bifurcation index: percentage of the 215 simulated drifters that ended south
 #                    of their starting latitude in a particular year
 #
-# Michael Malick <mjm@michaelmalick.com>
-# Updated: 2023-01-11 13:38:05
+# Michael Malick <malickmj@gmail.com>
+# Updated: 2024-07-23 12:37:27.953705
 year,bifurcation_index
 1967,0.665116279069767
 1968,0.288372093023256
@@ -66,3 +66,5 @@ year,bifurcation_index
 2020,0.744186046511628
 2021,0.697674418604651
 2022,0.516279069767442
+2023,0.651162790697674
+2024,0.683720930232558
